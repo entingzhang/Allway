@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/AboutMe.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.inner.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div class="content center">
+			<!----------top-area---------->
+			<div class="top-area">
+				<div class="top-area-line"></div>
+				<div class="top-area-menu">
+					<div class="menu-logo">
+						ALLWAY
+					</div>
+					<div class="menu-input">
+						<input type="text" name="" id="" value="" />
+						<span><img src="img/fangda.png"/></span>
+						<img src="img/computer.png" />
+					</div>
+				</div>
+				<div class="top-area-content">
+					<div class="">
+						1
+					</div>
+					<div class="">
+						2
+					</div>
+					<div class="top-area-img"><img src="img/aboutbg.png"/></div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.inner.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var swiper = new Swiper('.swiper-container', {
+				spaceBetween: 30,
+				centeredSlides: true,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+	</body>
+
+</html>
