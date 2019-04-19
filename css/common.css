@@ -1,0 +1,100 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/1.5 'Microsoft Yahei', '微软雅黑', \5FAE\8F6F\96C5\9ED1, '宋体', \5b8b\4f53, arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
+}
+
+a,
+a:focus {
+	display: block;
+	text-decoration: none;
+	outline: none;
+	color: #000;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+label,
+button {
+	cursor: pointer;
+}
+
+input:focus {
+	outline: 0px;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+	display: block;
+}
+
+
+/*连续英文、数字换行*/
+
+.wordwrap {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+
+/*单行文字超出显示省略号*/
+
+.omg {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+img {
+	border: 0 none;
+	vertical-align: top;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.center{
+	margin: 0 auto;
+}
