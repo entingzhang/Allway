@@ -4,20 +4,35 @@ body {
 
 .content {
 	width: 75%;
-	height: 100%;
+	border: 6px solid #E94F25;
+	border-top: 0px;
 }
 
-.titlep{
+.titlep {
 	color: #E94F25;
-	font-size:10px ;
+	font-size: 10px;
 	line-height: 14px;
 	font-weight: 700;
 }
-.titley{
+
+.titley {
 	color: #E94F25;
-	font-size:14px ;
+	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
+}
+.zhongwen {
+	font-size: 14px;
+    color: #000000;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.yingwen {
+	font-size: 18px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: 700;
 }
 
 /*----------------top-area---------------*/
@@ -52,7 +67,7 @@ body {
 	margin-top: 30px;
 	font-size: 26px;
 	line-height: 40px;
-	color: #283452;;
+	color: #283452;
 	font-weight: 700;
 	letter-spacing: 8px;
 }
@@ -108,8 +123,7 @@ body {
 }
 
 
-
-/*顶部菜单*/
+/*顶部*/
 
 .top-area .top-area-content {
 	width: 100%;
@@ -118,39 +132,91 @@ body {
 	box-sizing: border-box;
 	background-size: cover;
 	position: relative;
+	/*background-color: red;*/
 }
-.top-area-content .top-area-img{
+
+.top-area-content>div {
+	float: left;
+	margin-right: 2%;
+}
+
+.top-area-content .content-menu {
+	width: 18%;
+}
+.content-menu .big-menu{
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.content-menu .big-menu li{
+	width: 150px;
+	color: #B1C0C8;
+	margin-bottom:10px;
+	font-weight: 700;
+}
+.content-menu .big-menu li.menu-acticve{
+	position: relative;
+}
+.content-menu .big-menu .menu-acticve:hover span{
+	display: block;
+}
+.content-menu .big-menu li span{
+	display: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #E94F25;
+	position: absolute;
+	top: 10px;
+	left: -15px;
+}
+.top-area-content .content-about {
+	width: 28%;
+	height: 100px;
+	/*background-color: green;*/
+}
+.content-about .content-about-me li{
+	width: 230px;
+	color: #283452;
+	margin-bottom:30px;
+}
+
+.content-about .content-about-me li span{
+	font-size: 24px;
+}
+
+.top-area-content .content-about .jianjjie p{
+	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-area-content .content-img {
 	width: 50%;
-	height: 600px;
-	background-color: red;
-}
-.top-area-content .top-area-img img{
-	height: 600px;
+	background-color: pink;
+	margin-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.top-area-content .content-img img {
+	height: 634px;
+	border: 0;
+}
 /*----------------bottom-area---------------*/
 
 .bottom-area {
