@@ -13,6 +13,7 @@
 html,
 body {
 	height: 100%;
+	font-size: calc(100vw/7.5);
 }
 
 body,
@@ -77,6 +78,8 @@ img {
 }
 
 img {
+	-ms-interpolation-mode: bicubic;
+    display: block;
 	border: 0 none;
 	vertical-align: top;
 }
@@ -97,4 +100,11 @@ img {
 
 .center{
 	margin: 0 auto;
+}
+
+.firstu{
+    display: none;
+}
+.over-h {
+    overflow: hidden;
 }
