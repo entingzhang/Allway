@@ -46,7 +46,7 @@ body {
 }
 
 .lo-ss {
-	width: 1100px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -57,8 +57,9 @@ body {
 	height: 68px;
 	position: absolute;
 	top: 0px;
-	left: 50%;
-	margin-left: -550px;
+	left: 0px;
+	padding: 0px 2%;
+	box-sizing: border-box;
 }
 
 .logo {
@@ -115,13 +116,14 @@ body {
 
 
 /*logo搜索结束*/
-
+/*顶部开始*/
 .top-area-content {
 	margin-top: 40px;
 	position: relative;
+	padding-left: 2%;
+	box-sizing: border-box;
 	top: 50px;
-	left: 50%;
-	margin-left: -550px;
+	left: 0px;
 }
 
 .top-area-content>div {
@@ -190,14 +192,15 @@ body {
 
 .top-area-content .content-img img {
 	height: 740px;
+	float: right;
 }
-
+/*顶部结束*/
+/*底部开始*/
 .bottom-area {
 	height: 800px;
 	position: relative;
 	top: 100px;
-	left: 50%;
-	margin-left: -550px;
+	left: 0px;
 }
 
 .bottom-area .bgceng {
@@ -205,7 +208,7 @@ body {
 	width: 1000px;
 	position: absolute;
 	top: 0px;
-	left: 170px;
+	right: 0px;
 }
 
 .bottom-area .bgceng img {
@@ -217,19 +220,6 @@ body {
 	padding-left: 25px;
 	box-sizing: border-box;
 	background-color: #FFFFFF;
-}
-
-.bottom-area .logo-yun {
-	width: 18%;
-	height: 78px;
-	position: relative;
-}
-
-.bottom-area .logo-yun img {
-	width: 150px;
-	position: absolute;
-	top: -35px;
-	left: 0px;
 }
 
 .bottom-area-title .title li {
@@ -251,11 +241,22 @@ body {
 	top: 10px;
 	left: -15px;
 }
+.bottom-area .logo-yun {
+	width: 18%;
+	height: 78px;
+	position: relative;
+}
 
+.bottom-area .logo-yun>img {
+	width: 150px;
+	position: absolute;
+	top: -35px;
+	left: 0px;
+}
 .bottom-area-title .bottom-menu {
 	width: 800px;
 	height: 500px;
-	margin-top: 40px;
+	margin-top: 80px;
 }
 
 .bottom-area-title .bottom-menu li {
@@ -292,3 +293,4 @@ body {
 .bottom-area-title .bottom-menu li:nth-of-type(5) {
 	width: 21%;
 }
+/*底部结束*/
