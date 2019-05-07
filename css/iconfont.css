@@ -59,3 +59,10 @@
   content: "\e624";
 }
 
+.icon-yonghu:before {
+  content: "\e9c9";
+}
+
+.icon-suo:before {
+  content: "\e62d";
+}

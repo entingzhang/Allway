@@ -43,7 +43,7 @@ body {
 .box {
 	position: relative;
 	width: 100%;
-	height: 1900px;
+	height: 1100px;
 	z-index: 50;
 	overflow: hidden;
 	min-width: 953px;
@@ -55,6 +55,7 @@ body {
 }
 /*logo搜索开始*/
 .loss {
+	width: 1100px;
 	height: 68px;
 	position: absolute;
 	top: 0px;
@@ -146,7 +147,7 @@ body {
 	padding: 0 20px;
 	box-sizing: border-box;
 	border: 5px solid #E94F25;
-	border-width: 0px 5px ;
+	border-width: 0px 5px  5px 5px;
 }
 .top-area-content .bgceng {
 	height: 700px;
@@ -164,126 +165,119 @@ body {
 	margin-right: 2%;
 }
 
-.top-area-content .content-menu {
-	margin-top: 60px;
-	width: 25%;
-}
-
-.content-menu .big-menu {
-	padding-left: 6%;
-	box-sizing: border-box;
-}
-
-.content-menu .big-menu li {
-	width: 170px;
-	color: #888888;;
-	margin-bottom: 10px;
-	font-weight: 700;
-}
-
-.content-menu .big-menu li.menu-acticve {
-	position: relative;
-}
-
-.content-menu .big-menu .menu-acticve:hover span {
-	display: block;
-}
-
-.content-menu .big-menu li span {
-	display: none;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #E94F25;
-	position: absolute;
-	top: 10px;
-	left: -15px;
-}
 .top-area-content .top-content{
 	position: absolute;
-	top: 195px;
-	right: 16%;
+	top: 158px;
+	left: 2%;
 }
 
-.top-area-content .top-content .firstul li .gaishu{
-	width: 570px;
-	height: 60px;
-	text-indent: 2em;
+.top-area-content .top-content .firstul{
+	width: 636px;
 	margin: 10px 0px;
 }
-
-.top-area-content .top-content .secondul{
-	/*margin-top: 55px;*/
+.top-content .firstul .titlep{
+	font-size: 58px;
 	color: #283452;
+	line-height: 74px;
+	letter-spacing:2px;
+	text-indent:0;
+	font-weight: 500;
 }
-.top-area-content .top-content .secondul li{
-	margin-top: 25px;
-}
-.top-area-content .top-content .secondul b{
-	font-size: 22px;
-	color: #888888;
-}
-.top-area-content .top-content .secondul p{
-	font-size: 14px;
-	color: #888888;
-}
-/*顶部标题结束*/
-
-
-/*底部部分开始*/
-.bottom-area{
-	position: absolute;
-	margin: 0 auto;
-	top: 940px;
-	left: 50%;
-	margin-left: -550px;
-	border: 5px solid #E94F25;
-	border-width: 0px 5px 5px 5px;
-}
-.bottom-area>img{
-	width: 101%;
-}
-.bottom-area-content{
-	height: 500px;
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	margin-left: -550px;
-}
-.bottom-area-content .bottom-img{
-	width: 180px;
-	height: 180px;
-	border-radius: 15px;
-	background-color: #283452;
-	position: absolute;
-	top: 50px;
-	left: 50px;
-}
-.bottom-area-content .bottom-img img{
-	width: 80px;
-	padding-top: 80px;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
-.bottom-area-content .bottom-txt{
-	width: 564px;
-	color: #FFFFFF;
-	position: absolute;
-	top: 150px;
-	left: 450px;
-}
-.bottom-area-content .zhongwen,
-.bottom-area-content .yingwen{
-	color: #FFFFFF;
-}
-.bottom-area-content .bottom-Article,
-.bottom-area-content .bottom-txt .big-title2{
-	margin-top: 30px;
-}
-.bottom-area-content .bottom-Article dd{
+.top-content .firstul p{
 	text-indent: 2em;
-	font-size: 12px;
 	text-align: justify;
     text-justify: inter-ideograph;/*IE*/
 }
-/*底部部分结束*/
+.top-content .firstul p:nth-of-type(3),
+.top-content .firstul p:nth-of-type(4){
+	font-size: 42px;
+	letter-spacing:0px;
+	line-height: 50px;
+	font-weight: 500;
+}
+.top-content .firstul p:nth-of-type(4){
+	margin-bottom: 20px;
+}
+.top-area-content .info{
+	width: 340px;
+	height: 220px;
+	position: absolute;
+	top: 330px;
+	right: 10px;
+	font-size: 12px;
+	font-weight: 600;
+}
+.top-area-content .login{
+	height: 326px;
+	position: absolute;
+	left: 50%;
+	bottom: -1px;
+	margin-left: -550px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+.top-area-content .login>img{
+	width: 100%;
+}
+.top-area-content .login-area{
+	width: 325px;
+	height: 160px;
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+}
+.top-area-content .login-area .btn-a{
+	margin-bottom: 20px;
+	letter-spacing:-3px;
+}
+.top-area-content .btn-a a{
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 50px;
+	text-align: center;
+	padding: 0px 4px;
+	box-sizing: border-box;
+	letter-spacing:0;
+}
+.top-area-content .btn-a a:first-child{
+	border: 2px solid #FFFFFF;
+	border-width: 0px 2px 0px 0px;
+}
+.top-area-content .login-area .btn-input{
+}
+.top-area-content .btn-input label{
+	display: block;
+	width: 315px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	border: 1px solid #888888;
+}
+.top-area-content .btn-input i{
+	color: #E94F25;
+	font-size: 16px;
+}
+.top-area-content .btn-input input{
+	width: 270px;
+	height: 28px;
+	border: 0px;
+	font-size: 10px;
+	line-height: 28px;
+	float: right;
+}
+.top-area-content .login-area .btn-login{
+	
+}
+.top-area-content .btn-login button{
+	width: 155px;
+	height: 26px;
+	text-align: center;
+	font-size: 10px;
+	background-color: #9194AC;
+	border: 0px;
+}
+/*顶部标题结束*/
+
