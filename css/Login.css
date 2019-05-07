@@ -78,6 +78,9 @@ body {
 	letter-spacing: 8px;
 }
 
+.logo a{
+	color: #283452;
+}
 .menu {
 	margin-top: 30px;
 	margin-left: 40px;
@@ -111,7 +114,7 @@ body {
 }
 
 .ssuo .search {
-	background: #003660;
+	background: #283452;
 	float: left;
 	width: 30px;
 	height: 26px;
@@ -141,7 +144,7 @@ body {
 .top-area-content {
 	height: 900px;
 	position: absolute;
-	top: 40px;
+	top: 60px;
 	left: 50%;
 	margin-left: -550px;
 	padding: 0 20px;
@@ -151,7 +154,7 @@ body {
 }
 .top-area-content .bgceng {
 	height: 700px;
-	width: 935px;
+	width: 870px;
 	position: absolute;
 	top: 40px;
 	right: 0px;

@@ -20,14 +20,14 @@ body {
 
 .zhongwen {
 	font-size: 14px;
-	color: #000000;
+	color: #283452;
 	line-height: 16px;
 	font-weight: 700;
 }
 
 .yingwen {
 	font-size: 18px;
-	color: #000000;
+	color: #283452;
 	line-height: 20px;
 	font-weight: 700;
 }
@@ -71,7 +71,9 @@ body {
 	font-weight: 700;
 	letter-spacing: 8px;
 }
-
+.logo a{
+	color: #283452;
+}
 .ssuo {
 	float: right;
 	width: 320px;
@@ -90,7 +92,7 @@ body {
 }
 
 .ssuo .search {
-	background: #003660;
+	background: #283452;
 	float: left;
 	width: 30px;
 	height: 26px;
@@ -272,7 +274,7 @@ body {
 	top: -30px;
 	width: 20px;
 	height: 20px;
-	color: #000000;
+	color: #283452;
 	font-size: 20px;
 }
 
