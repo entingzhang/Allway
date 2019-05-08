@@ -328,9 +328,13 @@ body {
 	height: 750px;
 	padding: 0 20px;
 	box-sizing: border-box;
+	position: relative;
 }
 .daohang .logo a{
 	color: #283452;
+}
+.si-dh{
+	position: absolute;
 }
 .si-dh li {
 	width: 100%;
@@ -344,24 +348,25 @@ body {
 }
 .middle-area-content {
 	margin: 0 auto;
-	position: relative;
+	position: absolute;
+	top: 50px;
+	/*background-color: red;*/
 }
 
 .middle-area-content {
-	margin: 30px 40px;
+	margin: 0px 40px;
 }
 
 .middle-area-content .logo-yun {
 	width: 18%;
 	height: 200px;
-	/*background-color: red;*/
 	position: relative;
 }
 
 .middle-area-content .logo-yun img {
 	width: 150px;
 	position: absolute;
-	top: -35px;
+	top: 0px;
 	left: -55px;
 }
 
