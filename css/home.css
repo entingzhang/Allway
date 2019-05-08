@@ -62,7 +62,7 @@ body {
 	line-height: 40px;
 	color: #FFFFFF;
 	font-weight: 700;
-	letter-spacing: 8px;
+	letter-spacing: 5px;
 }
 .logo a,
 .logo a:focus{
@@ -344,12 +344,12 @@ body {
 	font-size: 26px;
 	line-height: 40px;
 	font-weight: 700;
-	letter-spacing: 8px;
+	letter-spacing: 5px;
 }
 .middle-area-content {
 	margin: 0 auto;
 	position: absolute;
-	top: 50px;
+	top: 65px;
 	/*background-color: red;*/
 }
 
@@ -358,7 +358,7 @@ body {
 }
 
 .middle-area-content .logo-yun {
-	width: 18%;
+	width: 20%;
 	height: 200px;
 	position: relative;
 }
@@ -371,13 +371,13 @@ body {
 }
 
 .middle-area-content .menu-list{
-	width: 80%;
+	width: 78%;
 	height: 50px;
 	/*background-color: green;*/
 }
 
 .middle-area-content .menu-list ul li {
-	width: 19%;
+	width: 24%;
 	float: left;
 	margin-right: 2%;
 	font-size: 14px;
@@ -391,14 +391,14 @@ body {
 
 .middle-area-content .menu-list>ul li:nth-of-type(2),
 .middle-area-content .menu-list-item>ul:nth-of-type(2){
-	width: 21%;
+	width: 26%;
 }
 
 .middle-area-content .menu-list>ul li:nth-of-type(3),
 .middle-area-content .menu-list>ul li:nth-of-type(4),
 .middle-area-content .menu-list-item>ul:nth-of-type(3),
 .middle-area-content .menu-list-item>ul:nth-of-type(4){
-	width: 26%;
+	width: 21%;
 }
 
 .middle-area-content .menu-list>ul li p:last-child {
@@ -409,7 +409,7 @@ body {
 	width: 100%;
 }
 .middle-area-content .menu-list-item>ul{
-	width: 19%;
+	width: 24%;
 	float: left;
 	margin-right: 2%;
 	font-weight: 600;

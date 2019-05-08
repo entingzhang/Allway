@@ -13,7 +13,7 @@ body {
 
 .titley {
 	color: #E94F25;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 18px;
 	font-weight: 700;
 }
@@ -74,7 +74,7 @@ body {
 	line-height: 40px;
 	color: #283452;
 	font-weight: 700;
-	letter-spacing: 8px;
+	letter-spacing: 5px;
 }
 .logo a{
 	color: #283452;
@@ -269,7 +269,7 @@ body {
 }
 
 .bottom-area-title .bottom-menu li {
-	width: 18%;
+	width: 19%;
 	margin-right: 2%;
 	float: left;
 	position: relative;
@@ -297,10 +297,11 @@ body {
 }
 
 .bottom-area-title .bottom-menu li:nth-of-type(1) {
-	width: 15%;
+	width: 12%;
 }
 
 .bottom-area-title .bottom-menu li:nth-of-type(5) {
 	width: 21%;
+	margin-right: 0px;
 }
 /*底部结束*/
