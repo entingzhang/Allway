@@ -178,7 +178,7 @@ body {
 	box-sizing: border-box;
 }
 
-.content-menu .big-menu li {
+.content-menu .big-menu li{
 	width: 170px;
 	color: #888888;;
 	margin-bottom: 10px;
@@ -205,40 +205,48 @@ body {
 }
 .top-area-content .top-content{
 	position: absolute;
-	top: 195px;
+	top: 70px;
 	right: 16%;
 }
 
 .top-area-content .top-content .firstul{
 	width: 636px;
-	/*height: 60px;*/
+	height: 800px;
 	margin: 10px 0px;
+	overflow: hidden;
 }
-.top-content .firstul .titlep{
-	font-size: 26px;
+.top-content .firstul ul>li{
+	width: 47%;
+	height: 140px;
+	float: left;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+.top-content .firstul ul>li:nth-of-type(odd){
+	margin-right: 6%;
+}
+.top-content .firstul ul li>span{
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 5px;
+	background-color: #283452;
+}
+.top-content .firstul ul li a>p{
+	font-size: 10px;
+	line-height: 1.5;
 	color: #283452;
-	line-height: 30px;
-	letter-spacing:2px;
-	text-indent:0;
+}
+.top-content .firstul ul li a>p.titley,
+.top-content .firstul ul li a>p.titlep{
+	font-size: 12px;
 	font-weight: 700;
 }
-.top-content .firstul p{
-	text-indent: 2em;
-	text-align: justify;
-    text-justify: inter-ideograph;/*IE*/
-}
-.top-content .firstul p:nth-of-type(3),
-.top-content .firstul p:nth-of-type(4){
-	font-size: 16px;
-	letter-spacing:0px;
-	line-height: 20px;
-	font-weight: 600;
-}
-.top-content .firstul p:nth-of-type(4){
-	margin-bottom: 20px;
-}
-
 /*顶部标题结束*/
+
+
 /*底部部分开始*/
 .bottom-area {
 	height: 900px;
@@ -253,4 +261,56 @@ body {
 	background-color: #FFFFFF;
 }
 
+.bottom-area .bgceng {
+	height: 700px;
+	width: 935px;
+	position: absolute;
+	top: 55px;
+	right: 0px;
+}
+
+.bottom-area .bgceng img {
+	width: 957px;
+}
+.bottom-area .bottom-content1,
+.bottom-area .bottom-content2{
+	position: absolute;
+	top: 80px;
+	right: 16%;
+}
+.bottom-area .bottom-content2{
+	display: none;
+}
+.alldiv{
+	width: 636px;
+	/*height: 60px;*/
+	margin: 10px 0px;
+	display: none;
+}
+.bottom-area .alldiv .titlep{
+	font-size: 26px;
+	color: #283452;
+	line-height: 30px;
+	letter-spacing:2px;
+	text-indent:0;
+	font-weight: 700;
+}
+.bottom-area .alldiv p{
+	text-indent: 2em;
+	text-align: justify;
+    text-justify: inter-ideograph;/*IE*/
+}
+.bottom-area .alldiv p:nth-of-type(3),
+.bottom-area .alldiv p:nth-of-type(4){
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.bottom-area .alldiv p:nth-of-type(4){
+	margin-bottom: 20px;
+}
+.able{
+	display: block;
+}
 /*底部部分结束*/

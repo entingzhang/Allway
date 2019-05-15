@@ -5,8 +5,8 @@ body {
 }
 .titlep{
 	color: #E94F25;
-	font-size:10px ;
-	line-height: 14px;
+	font-size:13px ;
+	line-height: 14px;	
 	font-weight: 700;
 }
 .titley{
@@ -22,7 +22,7 @@ body {
 	font-weight: 700;
 }
 .xzhongwen{
-	font-size: 10px;
+	font-size: 14px;
 	color: #283452;
 	line-height: 16px;
 	font-weight: 700;
@@ -34,7 +34,7 @@ body {
 	font-weight: 700;
 }
 .xyingwen{
-	font-size: 14px;
+	font-size: 18px;
 	color: #283452;
 	line-height: 20px;
 	font-weight: 700;
@@ -179,13 +179,15 @@ body {
 	box-sizing: border-box;
 }
 
-.content-menu .big-menu li {
+.content-menu .big-menu li{
 	width: 170px;
-	color: #888888;
 	margin-bottom: 10px;
 	font-weight: 700;
 }
 
+.content-menu .big-menu li a{
+	color: #888888;
+}
 .content-menu .big-menu li.menu-acticve {
 	position: relative;
 }
@@ -436,11 +438,12 @@ body {
 .bottom-area-content .yingwen{
 	color: #FFFFFF;
 }
-.bottom-area-content .bottom-Article dt{
-	margin: 30px 0px 5px;
-	font-size: 18px;
+.bottom-area-content .bottom-Article>div{
+	margin: 25px 0px 5px;
+	font-size: 16px;
+	font-weight: 700;
 }
-.bottom-area-content .bottom-Article dd{
+.bottom-area-content .bottom-Article p{
 	text-indent: 2em;
 	font-size: 12px;
 	text-align: justify;

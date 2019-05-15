@@ -282,9 +282,10 @@ body {
 	width: 30%;
 	height: 168px;
 	font-weight: 700;
+	margin-right: 15%;
 }
 
-.banner .banner-title p:nth-of-type(1) {
+.banner .banner-title>p:nth-of-type(1) {
 	font-size: 16px;
 	line-height: 16px;
 }
@@ -294,15 +295,21 @@ body {
 	line-height: 22px;
 	font-family: tahoma;
 }
-
-.banner .banner-title p:nth-of-type(3) {
-	margin-top: 20px;
+.banner .banner-title>p>a,
+.banner .banner-title>p>a:focus{
+	color: #283452;
 }
-
+.banner .banner-title .lunbo-txt{
+	margin-top: 10px;
+}
+.banner .banner-title .lunbo-txt li>p{
+	font-size: 12px;
+	color: #283452;
+}
 .banner .banner-title .banner-span {
 	margin-top: 30px;
+	width: 26%;
 }
-
 .banner .banner-span span {
 	margin-right: 10px;
 }
@@ -311,10 +318,10 @@ body {
 
 .banner .banner-content .banner-video {
 	width: 55%;
-	margin-left: 15%;
 	height: 168px;
 	color: #FFFFFF;
-	/*overflow: hidden;*/
+	margin-right: 0;
+	overflow: hidden;
 }
 
 .banner .banner-footer {
@@ -421,7 +428,9 @@ body {
 	font-size: 8px;
 	line-height: 12px;
 	font-weight: 600;
-	color: #888888;
+}
+.middle-area-content .menu-list-item>ul li a{
+	color: #283452;
 }
 .middle-area-content .menu-list-item>ul li p:last-child{
 	font-size: 12px;

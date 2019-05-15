@@ -82,12 +82,36 @@
 			<!-- 轮播 -->
 			<div class="banner lo-ss over-h">
 				<div class="banner-content clear">
-					<div class="banner-title left">
+					<div class="banner-title left  swiper-container swiper-container-horizontal">
 						<p><a href="ProductPlan.html">产品方案</a></p>
 						<p><a href="ProductPlan.html">Product Solution</a></p>
-						<p>衢州雪亮工程</p>
-						<p>衢州市是全国第一批</p>
-						<p>浙江省首个“雪亮工程”全国示范城市</p>
+						<ul class="lunbo-txt swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); ">
+							<li class="swiper-slide swiper-slide-active">
+								<p>衢州雪亮工程1</p>
+								<p>衢州市是全国第一批</p>
+								<p>浙江省首个“雪亮工程”全国示范城市</p>
+							</li>
+							<li class="swiper-slide swiper-slide-next">
+								<p>衢州雪亮工程2</p>
+								<p>衢州市是全国第一批</p>
+								<p>浙江省首个“雪亮工程”全国示范城市</p>
+							</li>
+							<li class="swiper-slide">
+								<p>衢州雪亮工程3</p>
+								<p>衢州市是全国第一批</p>
+								<p>浙江省首个“雪亮工程”全国示范城市</p>
+							</li>
+							<li class="swiper-slide">
+								<p>衢州雪亮工程4</p>
+								<p>衢州市是全国第一批</p>
+								<p>浙江省首个“雪亮工程”全国示范城市</p>
+							</li>
+							<li class="swiper-slide">
+								<p>衢州雪亮工程5</p>
+								<p>衢州市是全国第一批</p>
+								<p>浙江省首个“雪亮工程”全国示范城市</p>
+							</li>
+						</ul>
 						<div class="banner-span swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
 							<span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span>
 							<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
@@ -105,7 +129,7 @@
 								<div class="swiper-slide"><img src="img/banner4.png" /></div>
 								<div class="swiper-slide"><img src="img/banner5.png"></div>
 							</div>
-							<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+							<!--<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>-->
 						</div>
 					</div>
 				</div>
@@ -252,12 +276,16 @@
 						<!--子目录第四部分-->
 						<ul>
 							<li>
-								<p>数梦工场</p>
-								<p>Dt Dream</p>
+								<a href="#">
+									<p>数梦工场</p>
+									<p>Dt Dream</p>
+								</a>
 							</li>
 							<li>
-								<p>物产中大</p>
-								<p>Wuchan Zhongda Group</p>
+								<a href="#">
+									<p>物产中大</p>
+									<p>Wuchan Zhongda Group</p>
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -274,6 +302,7 @@
 				spaceBetween: 30,
 				centeredSlides: true,
 				autoplay: {
+					//这个时间是动画切换的时间
 					delay: 2000,
 					disableOnInteraction: false,
 				},
