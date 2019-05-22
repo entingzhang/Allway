@@ -71,7 +71,7 @@
 						<div class="huan2"></div>
 						<div class="huan3">
 							<h3>$<span>41.1</span></h3>
-							<h3>Million</h3>
+							<h3>Billion</h3>
 						</div>
 					</div>
 					<span class="left"><img src="img/rightjian.png"/></span>
@@ -144,14 +144,15 @@
 									</div>
 								</div>
 							</div>
+							
+							<div class="banner-span swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+								<span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+								<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+								<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+								<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+								<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+							</div>
 						</div>
-					</div>
-					<div class="banner-span swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-						<span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span>
-						<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
-						<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-						<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
-						<span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
 					</div>
 				</div>
 				<div class="banner-footer"></div>
@@ -371,18 +372,22 @@
 					mySwiper.autoplay.start();
 				}
 
-				var vids = document.getElementsByTagName('video');
-				console.log(vids.length)
-
-				for(var i = 0; i < vids.length; i++) {
-					vids[i].onclick = function() {
-						if(this.paused) {
-							this.play();
-						} else {
-							this.pause();
-						}
-					}
+				var videos = document.getElementsByTagName('video');
+				//遍历所有video给其++事件监听，如果监听到play则执行pauseAll函数
+				for(var i = videos.length - 1; i >= 0; i--) {
+					(function() {
+						var p = i;
+						videos[p].addEventListener('play', function() {
+							pauseAll(p);
+						})
+					})()
 				}
+				//遍历video[j]，如果j和index不一样则暂停，如相等则不暂停
+				function pauseAll(index) {
+					for(var j = videos.length - 1; j >= 0; j--) {
+						if(j != index) videos[j].pause();
+					}
+				};
 			}
 		</script>
 

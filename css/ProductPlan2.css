@@ -3,37 +3,43 @@ body {
 	height: 100%;
 	min-width: 1100px;
 }
-.titlep{
+
+.titlep {
 	color: #E94F25;
-	font-size:13px ;
+	font-size: 13px;
 	line-height: 14px;
 	font-weight: 700;
 }
-.titley{
+
+.titley {
 	color: #E94F25;
-	font-size:14px ;
+	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
 }
-.zhongwen{
+
+.zhongwen {
 	font-size: 14px;
 	color: #283452;
 	line-height: 16px;
 	font-weight: 700;
 }
-.xzhongwen{
+
+.xzhongwen {
 	font-size: 14px;
 	color: #283452;
 	line-height: 16px;
 	font-weight: 700;
 }
-.yingwen{
+
+.yingwen {
 	font-size: 18px;
 	color: #283452;
 	line-height: 20px;
 	font-weight: 700;
 }
-.xyingwen{
+
+.xyingwen {
 	font-size: 18px;
 	color: #283452;
 	line-height: 20px;
@@ -53,7 +59,10 @@ body {
 	width: 1100px;
 	margin: 0 auto;
 }
+
+
 /*logo搜索开始*/
+
 .loss {
 	height: 68px;
 	position: absolute;
@@ -64,7 +73,6 @@ body {
 	box-sizing: border-box;
 	border: 5px solid #E94F25;
 	border-width: 5px 5px 0px 5px;
-	
 }
 
 .logo {
@@ -76,9 +84,11 @@ body {
 	font-weight: 700;
 	letter-spacing: 5px;
 }
-.logo a{
+
+.logo a {
 	color: #283452;
 }
+
 .menu {
 	margin-top: 30px;
 	margin-left: 40px;
@@ -137,9 +147,12 @@ body {
 	width: 30px;
 }
 
+
 /*logo搜索结束*/
 
+
 /*顶部标题开始*/
+
 .top-area-content {
 	height: 900px;
 	position: absolute;
@@ -149,8 +162,9 @@ body {
 	padding: 0 20px;
 	box-sizing: border-box;
 	border: 5px solid #E94F25;
-	border-width: 0px 5px ;
+	border-width: 0px 5px;
 }
+
 .top-area-content .bgceng {
 	height: 700px;
 	width: 870px;
@@ -162,6 +176,7 @@ body {
 .top-area-content .bgceng img {
 	width: 892px;
 }
+
 .top-area-content>div {
 	float: left;
 	margin-right: 2%;
@@ -179,11 +194,11 @@ body {
 
 .content-menu .big-menu li {
 	width: 170px;
-	
 	margin-bottom: 10px;
 	font-weight: 700;
 }
-.content-menu .big-menu li a{
+
+.content-menu .big-menu li a {
 	color: #888888;
 }
 
@@ -205,39 +220,46 @@ body {
 	top: 10px;
 	left: -15px;
 }
-.top-area-content .top-content{
+
+.top-area-content .top-content {
 	position: absolute;
 	top: 195px;
 	right: 16%;
 }
 
-.top-area-content .top-content .firstul li .gaishu{
+.top-area-content .top-content .firstul li .gaishu {
 	width: 570px;
 	height: 60px;
 	text-indent: 2em;
 	margin: 10px 0px;
 }
 
-.top-area-content .top-content .secondul{
+.top-area-content .top-content .secondul {
 	/*margin-top: 55px;*/
 	color: #283452;
 }
-.top-area-content .top-content .secondul li{
+
+.top-area-content .top-content .secondul li {
 	margin-top: 25px;
 }
-.top-area-content .top-content .secondul b{
+
+.top-area-content .top-content .secondul b {
 	font-size: 22px;
 	color: #888888;
 }
-.top-area-content .top-content .secondul p{
+
+.top-area-content .top-content .secondul p {
 	font-size: 14px;
 	color: #888888;
 }
+
+
 /*顶部标题结束*/
 
 
 /*底部部分开始*/
-.bottom-area{
+
+.bottom-area {
 	position: absolute;
 	margin: 0 auto;
 	top: 940px;
@@ -246,81 +268,109 @@ body {
 	border: 5px solid #E94F25;
 	border-width: 0px 5px 5px 5px;
 }
-.bottom-area>img{
+
+.bottom-area>img {
 	width: 101%;
 }
-.bottom-area-content{
-	height: 500px;
+
+.bottom-area-content {
+	height: 883px;
 	position: absolute;
 	top: 0px;
 	left: 50%;
 	margin-left: -550px;
+	color: #FFFFFF;
 }
-.bottom-area-content .bottom-img{
+
+.bottom-area-content .toptop {
+	width: 935px;
+	height: 270px;
+	margin: 25px 0px;
+	position: absolute;
+	top: 0px;
+	left: 80px;
+}
+
+.bottom-area-content .big-title {
+	margin-left: 340px;
+}
+
+.bottom-area-content .big-title .zhongwen,
+.bottom-area-content .big-title .yingwen {
+	color: #FFFFFF;
+}
+
+.bottom-area-content .bottom-txt .bottom-img {
 	width: 180px;
 	height: 180px;
 	border-radius: 15px;
 	background-color: #283452;
 	position: absolute;
-	top: 50px;
-	left: 50px;
+	top: 30px;
+	left: 80px;
 }
-.bottom-area-content .bottom-img img{
+
+.bottom-area-content .bottom-txt .bottom-img>img {
 	width: 80px;
 	padding-top: 80px;
 	padding-left: 20px;
 	box-sizing: border-box;
 }
-.bottom-area-content .bottom-txt{
-	width: 564px;
-	color: #FFFFFF;
+
+.bottom-area-content .bottom-txt .bottom-Article {
+	width: 580px;
 	position: absolute;
 	top: 60px;
-	left: 300px;
+	left: 355px;
 }
-.bottom-area-content .zhongwen,
-.bottom-area-content .yingwen{
-	color: #FFFFFF;
+
+.bottom-area-content .bottomB {
+	width: 935px;
+	height: 700px;
+	position: absolute;
+	top: 300px;
+	left: 80px;
 }
-.bottom-area-content .bottom-Article,
-.bottom-area-content .bottom-txt .big-title2{
-	margin-top: 30px;
+
+.bottom-area-content .bottomB .ddd-img {
+	width: 340px;
+	height: 260px;
+	background-color: #FFFFFF;
+	overflow: hidden;
 }
-.bottom-area-content .bottom-txt .banner-swiper{
-	width: 764px;
-}
-.bottom-txt .bottom-Article dd{
-	text-indent: 2em;
-	font-size: 12px;
-	text-align: justify;
-    text-justify: inter-ideograph;/*IE*/
-}
-.bottom-txt .bottom-Article .ddd-img{
-	width: 180px;
-	height: 180px;
-	border-radius: 15px;
-	background-color: #283452;
-	float: left;
-}
-.bottom-txt .bottom-Article .ddd-img img{
-	width: 80px;
-	padding-top: 80px;
-	padding-left: 20px;
+
+.bottom-Article .ddd-img>img,
+.bottom-Article .ddd-img>video {
+	width: 340px;
+	padding-top: 35px;
 	box-sizing: border-box;
 }
-.bottom-txt .bottom-Article .ddd{
-	width: 564px;
-	float: right;
+
+.bottom-area-content .bottomB .bottom-Article {
+	margin-top: 30px;
+	height: 350px;
 }
-.bottom-txt .bottom-Article .ddd>div{
+
+.bottom-area-content .bottomB .ddd {
+	width: 580px;
+	height: 400px;
+	position: absolute;
+	top: -10px;
+	left: 355px;
+}
+
+.bottom-area-content .bottomB .ddd>div {
 	margin: 0px 0px 5px;
 	font-size: 16px;
 	font-weight: 700;
 }
-.bottom-txt .bottom-Article p{
+
+.bottom-txt .bottom-Article p {
 	text-indent: 2em;
 	font-size: 12px;
 	text-align: justify;
-    text-justify: inter-ideograph;/*IE*/
+	text-justify: inter-ideograph;
 }
+
+
 /*底部部分结束*/

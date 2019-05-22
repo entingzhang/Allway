@@ -140,22 +140,26 @@
 			<!-- 底部部分 -->
 			<div class="bottom-area lo-ss over-h">
 				<img src="img/chanpinbg.png" />
-				<div class="bottom-area-content lo-ss">
-					<div class="bottom-img">
-						<img src="img/producta.png" />
-					</div>
-					<div class="bottom-txt">
+				<div class="bottom-area-content lo-ss clear">
+					<div class="toptop">
 						<ul class="big-title" id="Application2">
 							<li>
 								<p class="zhongwen">应用场景</p>
 								<p class="yingwen">Application Scenario</p>
 							</li>
 						</ul>
-						<dl class="bottom-Article">
-							<dd>新零售解决方案帮助传统零售行业客户解决业务离线、消费者行为和系统数据割裂的困局，方案的核心理念：业务在线化（数据化），数据业务化。</dd>
-							<dd>通过全渠道电子商务，一方面捕捉并记录消费者的浏览、购买、支付、位置和社交行为等信息，另一方面，通过垂直整合价格链上的行业应用，将原先的线下业务过程在线化（数据化）。同时，通过引入探针等技术手段辅助进行线下数据采集，实现线上线下数据相融合。通过引入第三方数据服务来丰富零售行业客户的数据维度，在大数据中心进行数据建模及算法分析得到客户画像，为零售行业客户在进行营销活动时提供数据支撑，实现数据反哺业务应用、数据资产的价值化。持续的数据化运营帮助零售行业客户实现改善用户购物体验、提高用户活跃度、提升品牌认知度以及提高销售额及利润率的最终目标。</dd>
-						</dl>
-						<ul class="big-title2" id="Industry2">
+						<div class="bottom-txt clear">
+							<div class="bottom-img left">
+								<img src="img/producta.png" />
+							</div>
+							<dl class="bottom-Article left">
+								<dd>新零售解决方案帮助传统零售行业客户解决业务离线、消费者行为和系统数据割裂的困局，方案的核心理念：业务在线化（数据化），数据业务化。</dd>
+								<dd>通过全渠道电子商务，一方面捕捉并记录消费者的浏览、购买、支付、位置和社交行为等信息，另一方面，通过垂直整合价格链上的行业应用，将原先的线下业务过程在线化（数据化）。同时，通过引入探针等技术手段辅助进行线下数据采集，实现线上线下数据相融合。通过引入第三方数据服务来丰富零售行业客户的数据维度，在大数据中心进行数据建模及算法分析得到客户画像，为零售行业客户在进行营销活动时提供数据支撑，实现数据反哺业务应用、数据资产的价值化。持续的数据化运营帮助零售行业客户实现改善用户购物体验、提高用户活跃度、提升品牌认知度以及提高销售额及利润率的最终目标。</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="bottomB">
+						<ul class="big-title" id="Industry2">
 							<li>
 								<p class="zhongwen">行业案例</p>
 								<p class="yingwen">Industry Case</p>
@@ -163,9 +167,9 @@
 						</ul>
 						<div class="swiper-container swiper-container-horizontal banner-swiper">
 							<div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); ">
-								<div class="bottom-Article swiper-slide swiper-slide-active">
+								<div class="bottom-Article swiper-slide swiper-slide-active clear">
 									<div class="ddd-img">
-										<img src="img/producta.png" />
+										<video src="img/video1.mp4" controls></video>
 									</div>
 									<div class="ddd">
 										<div>领客汽车1</div>
@@ -176,7 +180,7 @@
 								</div>
 								<div class="bottom-Article swiper-slide swiper-slide-next">
 									<div class="ddd-img">
-										<img src="img/producta.png" />
+										<img src="img/productb.png" />
 									</div>
 									<div class="ddd">
 										<div>领客汽车2</div>
@@ -187,7 +191,7 @@
 								</div>
 								<div class="bottom-Article swiper-slide">
 									<div class="ddd-img">
-										<img src="img/producta.png" />
+										<video src="img/video1.mp4" controls></video>
 									</div>
 									<div class="ddd">
 										<div>领客汽车3</div>
@@ -198,7 +202,7 @@
 								</div>
 								<div class="bottom-Article swiper-slide">
 									<div class="ddd-img">
-										<img src="img/producta.png" />
+										<img src="img/productb.png" />
 									</div>
 									<div class="ddd">
 										<div>领客汽车4</div>
@@ -209,7 +213,7 @@
 								</div>
 								<div class="bottom-Article swiper-slide">
 									<div class="ddd-img">
-										<img src="img/producta.png" />
+										<img src="img/productb.png" />
 									</div>
 									<div class="ddd">
 										<div>领客汽车5</div>
@@ -220,7 +224,6 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -230,24 +233,46 @@
 		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			var swiper = new Swiper('.swiper-container', {
-				spaceBetween: 30,
-				centeredSlides: true,
-				loop: true,
-				autoplay: {
-					//这个时间是动画切换的时间
-					delay: 2000,
-					disableOnInteraction: false,
-				},
-				pagination: {
-					el: '.swiper-pagination',
-					clickable: true,
-				},
-				navigation: {
-					nextEl: '.swiper-button-next',
-					prevEl: '.swiper-button-prev',
-				},
-			});
+			window.onload = function() {
+				var swiper = new Swiper('.swiper-container', {
+					spaceBetween: 30,
+					centeredSlides: true,
+					loop: true,
+					autoplay: {
+						//这个时间是动画切换的时间
+						delay: 2000,
+						disableOnInteraction: false,
+					},
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+				});
+				swiper.el.onmouseenter = function() {
+					swiper.autoplay.stop();
+				}
+				swiper.el.onmouseleave = function() {
+					swiper.autoplay.start();
+				}
+
+				var videos = document.getElementsByTagName('video');
+				//遍历所有video给其++事件监听，如果监听到play则执行pauseAll函数
+				for(var i = videos.length - 1; i >= 0; i--) {
+					(function() {
+						var p = i;
+						videos[p].addEventListener('play', function() {
+							pauseAll(p);
+						})
+					})()
+				}
+				//遍历video[j]，如果j和index不一样则暂停，如相等则不暂停
+				function pauseAll(index) {
+					for(var j = videos.length - 1; j >= 0; j--) {
+						if(j != index) videos[j].pause();
+					}
+				};
+
+			}
 		</script>
 	</body>
 
