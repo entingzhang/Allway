@@ -7,7 +7,7 @@ body {
 .box {
 	position: relative;
 	width: 100%;
-	height: 850px;
+	height: 900px;
 	z-index: 50;
 	overflow: hidden;
 	min-width: 953px;
@@ -15,12 +15,12 @@ body {
 /*顶部背景开始*/
 .imgList {
 	position: relative;
-	height: 850px;
+	height: 900px;
 }
 
 .imgList li {
 	position: absolute;
-	height: 850px;
+	height: 900px;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -146,11 +146,11 @@ body {
 	width: 70%;
 }
 
-.top-area-title .left-title>div {
-	margin-bottom: 80px;
+.top-area-title .left-title>a {
+	margin-bottom: 40px;
 }
 
-.left-title div .zhongwen {
+.left-title a .zhongwen {
 	font-size: 36px;
 	font-family: 宋体;
 	line-height: 40px;
@@ -158,7 +158,7 @@ body {
 	letter-spacing: 1px;
 }
 
-.left-title div .yingwen {
+.left-title a .yingwen {
 	width: 85%;
 	font-size: 24px;
 	font-family: Times New Roman;
@@ -168,14 +168,14 @@ body {
 	color: #FFFFFF;
 }
 
-.left-title div span,
+.left-title a span,
 .right-title span {
 	display: block;
 	width: 20px;
 	height: 20px;
 }
 
-.left-title div span img,
+.left-title a span img,
 .right-title span img {
 	width: 20px;
 }
@@ -263,18 +263,99 @@ body {
 /*扇形部分结束*/ /*顶部主题结束*/
 /*轮播开始*/
 .banner {
-	height: 230px;
+	height: 400px;
 	background-color: #FFFFFF;
 	position: absolute;
-	top: 600px;
+	top: 480px;
 	left: 50%;
 	margin-left: -550px;
 }
 
-.banner .banner-content {
+.banner .banner-content{
+	height: 350px;
+	/*background-color: red;*/
+	position: relative;
+}
+.banner-content .banner-title{
+	width: 38%;
+	height: 40px;
+	font-weight: 700;
+	/*background-color: green;*/
+	margin-left: 5%;
+	margin-top: 10px;
+}
+
+.banner-content .banner-title>p:nth-of-type(1) {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.banner-content .banner-title p:nth-of-type(2) {
+	font-size: 22px;
+	line-height: 22px;
+	font-family: tahoma;
+}
+.banner-content .banner-title>p>a,
+.banner-content .banner-title>p>a:focus{
+	color: #283452;
+}
+
+.banner-content .banner-video{
+	width: 100%;
+	height: 310px;
+	/*background-color: pink;*/
+}
+
+.banner-content .banner-video .ddd{
+	width: 40%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 5%;
+}
+
+.banner-content .banner-video .imgVideo{
+	width: 55%;
+	float: right;
+	overflow: hidden;
+}
+.banner-video .imgVideo>video,
+.banner-video .imgVideo>img{
+	width: 550px;
+	height: 310px;
+}
+
+.banner-content .banner-span{
+	position: absolute;
+	top: 300px;
+	left: -30px;
+	width: 26%;
+}
+
+.banner .banner-span span {
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner .banner-footer {
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	background-color: #E94F25;
+}
+
+/*.banner .banner-content {
 	padding: 16px 20px;
 	box-sizing: border-box;
-	height: 200px;
+	height: 250px;
 }
 
 .banner .banner-content .banner-title,
@@ -285,20 +366,7 @@ body {
 	margin-right: 15%;
 }
 
-.banner .banner-title>p:nth-of-type(1) {
-	font-size: 16px;
-	line-height: 16px;
-}
 
-.banner .banner-title p:nth-of-type(2) {
-	font-size: 22px;
-	line-height: 22px;
-	font-family: tahoma;
-}
-.banner .banner-title>p>a,
-.banner .banner-title>p>a:focus{
-	color: #283452;
-}
 .banner .banner-title .lunbo-txt{
 	margin-top: 10px;
 }
@@ -316,7 +384,7 @@ body {
 
 /*顶部banner视频部分*/
 
-.banner .banner-content .banner-video {
+/*.banner .banner-content .banner-video {
 	width: 55%;
 	height: 168px;
 	color: #FFFFFF;
@@ -328,7 +396,7 @@ body {
 	width: 100%;
 	height: 30px;
 	background-color: #E94F25;
-}
+}*/
 /*轮播结束*/
 
 /*底部主题开始*/
@@ -408,7 +476,6 @@ body {
 .middle-area-content .menu-list-item>ul:nth-of-type(4){
 	width: 21%;
 }
-
 .middle-area-content .menu-list>ul li p:last-child {
 	font-size: 18px;
 	line-height: 20px;

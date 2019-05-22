@@ -1,0 +1,243 @@
+html,
+body {
+	height: 100%;
+	min-width: 1100px;
+}
+.titlep{
+	color: #E94F25;
+	font-size:13px ;
+	line-height: 14px;
+	font-weight: 700;
+}
+.titley{
+	color: #E94F25;
+	font-size:14px ;
+	line-height: 18px;
+	font-weight: 700;
+}
+.zhongwen{
+	font-size: 14px;
+	color: #283452;
+	line-height: 16px;
+	font-weight: 700;
+}
+.xzhongwen{
+	font-size: 10px;
+	color: #283452;
+	line-height: 16px;
+	font-weight: 700;
+}
+.yingwen{
+	font-size: 18px;
+	color: #283452;
+	line-height: 20px;
+	font-weight: 700;
+}
+.xyingwen{
+	font-size: 14px;
+	color: #283452;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.box {
+	position: relative;
+	width: 100%;
+	height: 2000px;
+	z-index: 50;
+	overflow: hidden;
+	min-width: 953px;
+}
+
+.lo-ss {
+	width: 1100px;
+	margin: 0 auto;
+}
+/*logo搜索开始*/
+.loss {
+	height: 68px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -550px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	border: 5px solid #E94F25;
+	border-width: 5px 5px 0px 5px;
+	
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+	font-size: 26px;
+	line-height: 40px;
+	color: #283452;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.logo a{
+	color: #283452;
+}
+
+.menu {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.menu .menu-items {
+	float: left;
+	margin-right: 40px;
+	font-weight: 700;
+}
+
+.menu .menu-items:hover {
+	border-bottom: 4px solid #E94F25;
+}
+
+.ssuo {
+	float: right;
+	width: 320px;
+	height: 30px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.ssuo input {
+	float: left;
+	width: 76%;
+	height: 27px;
+	padding: 0 10px;
+	border: 2px solid #888888;
+	border-radius: 3px;
+}
+
+.ssuo .search {
+	background: #283452;
+	float: left;
+	width: 30px;
+	height: 26px;
+	margin-left: 3%;
+	padding: 5px 7px;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.ssuo .search img {
+	width: 16px;
+}
+
+.ssuo .all {
+	width: 30px;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+}
+
+.ssuo .all img {
+	width: 30px;
+}
+
+/*logo搜索结束*/
+
+/*顶部标题开始*/
+.top-area-content {
+	height: 1200px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -550px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	border: 5px solid #E94F25;
+	border-width: 0px 5px 5px 5px;
+}
+
+.top-area-content .content-menu{
+	width: 15%;
+	margin-top: 20px;
+}
+.content-menu .big-menu {
+	padding-left: 6%;
+	box-sizing: border-box;
+}
+
+.content-menu .big-menu li {
+	width: 170px;
+	color: #888888;;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.content-menu .big-menu li.menu-acticve {
+	position: relative;
+}
+
+.content-menu .big-menu .menu-acticve:hover span {
+	display: block;
+}
+
+.content-menu .big-menu li span {
+	display: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #E94F25;
+	position: absolute;
+	top: 10px;
+	left: -15px;
+}
+.top-area-content .top-content{
+	width: 85%;
+	position: relative;
+}
+
+.top-area-content .bgceng{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.top-area-content .bgceng img{
+	width: 942px;
+	position: absolute;
+	top: 100px;
+	right: 0px;
+}
+.top-area-content .top-content .bottom-content1{
+	position: absolute;
+	top: 250px;
+	left: 165px;
+	line-height: 1.5em;
+	
+	text-align: justify;
+    text-justify: inter-ideograph;/*IE*/
+}
+.alldiv{
+	width: 636px;
+	margin: 10px 0px;
+}
+.alldiv .titlep{
+	font-size: 26px;
+	color: #283452;
+	line-height: 30px;
+	letter-spacing:2px;
+	text-indent:0;
+	font-weight: 700;
+}
+.alldiv p{
+	text-indent: 2em;
+	text-align: justify;
+    text-justify: inter-ideograph;/*IE*/
+}
+.alldiv p:nth-of-type(3),
+.alldiv p:nth-of-type(4){
+	font-size: 16px;
+	letter-spacing:0px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.alldiv p:nth-of-type(4){
+	margin-bottom: 20px;
+}
+/*顶部标题结束*/

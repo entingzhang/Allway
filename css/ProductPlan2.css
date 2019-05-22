@@ -276,7 +276,7 @@ body {
 	color: #FFFFFF;
 	position: absolute;
 	top: 60px;
-	left: 350px;
+	left: 300px;
 }
 .bottom-area-content .zhongwen,
 .bottom-area-content .yingwen{
@@ -286,13 +286,33 @@ body {
 .bottom-area-content .bottom-txt .big-title2{
 	margin-top: 30px;
 }
+.bottom-area-content .bottom-txt .banner-swiper{
+	width: 764px;
+}
 .bottom-txt .bottom-Article dd{
 	text-indent: 2em;
 	font-size: 12px;
 	text-align: justify;
     text-justify: inter-ideograph;/*IE*/
 }
-.bottom-txt .bottom-Article>div{
+.bottom-txt .bottom-Article .ddd-img{
+	width: 180px;
+	height: 180px;
+	border-radius: 15px;
+	background-color: #283452;
+	float: left;
+}
+.bottom-txt .bottom-Article .ddd-img img{
+	width: 80px;
+	padding-top: 80px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.bottom-txt .bottom-Article .ddd{
+	width: 564px;
+	float: right;
+}
+.bottom-txt .bottom-Article .ddd>div{
 	margin: 0px 0px 5px;
 	font-size: 16px;
 	font-weight: 700;

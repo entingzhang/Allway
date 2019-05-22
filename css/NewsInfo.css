@@ -142,7 +142,7 @@ body {
 
 /*顶部标题开始*/
 .top-area-content {
-	height: 900px;
+	height: 1400px;
 	position: absolute;
 	top: 60px;
 	left: 50%;
@@ -150,7 +150,7 @@ body {
 	padding: 0 20px;
 	box-sizing: border-box;
 	border: 5px solid #E94F25;
-	border-width: 0px 5px 0px 5px;
+	border-width: 0px 5px 5px 5px;
 }
 .top-area-content .bgceng {
 	height: 700px;
@@ -246,71 +246,3 @@ body {
 }
 /*顶部标题结束*/
 
-
-/*底部部分开始*/
-.bottom-area {
-	height: 900px;
-	position: absolute;
-	top: 940px;
-	left: 50%;
-	margin-left: -550px;
-	padding: 0 20px;
-	box-sizing: border-box;
-	border: 5px solid #E94F25;
-	border-width: 0px 5px  5px 5px;
-	background-color: #FFFFFF;
-}
-
-.bottom-area .bgceng {
-	height: 700px;
-	width: 935px;
-	position: absolute;
-	top: 55px;
-	right: 0px;
-}
-
-.bottom-area .bgceng img {
-	width: 957px;
-}
-.bottom-area .bottom-content1,
-.bottom-area .bottom-content2{
-	position: absolute;
-	top: 80px;
-	right: 16%;
-}
-.bottom-area .bottom-content2{
-	display: none;
-}
-.alldiv{
-	width: 636px;
-	/*height: 60px;*/
-	margin: 10px 0px;
-	display: none;
-}
-.bottom-area .alldiv .titlep{
-	font-size: 26px;
-	color: #283452;
-	line-height: 30px;
-	letter-spacing:2px;
-	text-indent:0;
-	font-weight: 700;
-}
-.bottom-area .alldiv p{
-	text-indent: 2em;
-	text-align: justify;
-    text-justify: inter-ideograph;/*IE*/
-}
-.bottom-area .alldiv p:nth-of-type(3),
-.bottom-area .alldiv p:nth-of-type(4){
-	font-size: 16px;
-	letter-spacing:0px;
-	line-height: 20px;
-	font-weight: 600;
-}
-.bottom-area .alldiv p:nth-of-type(4){
-	margin-bottom: 20px;
-}
-.able{
-	display: block;
-}
-/*底部部分结束*/

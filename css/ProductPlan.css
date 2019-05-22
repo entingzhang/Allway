@@ -410,27 +410,16 @@ body {
 	left: 50%;
 	margin-left: -550px;
 }
-.bottom-area-content .bottom-img{
-	width: 180px;
-	height: 180px;
-	border-radius: 15px;
-	background-color: #E94F25;
-	position: absolute;
-	top: 105px;
-	left: 200px;
-}
-.bottom-area-content .bottom-img img{
-	width: 80px;
-	padding-top: 80px;
-	padding-left: 20px;
-	box-sizing: border-box;
-}
+
 .bottom-area-content .bottom-txt{
-	width: 564px;
+	width: 764px;
 	color: #FFFFFF;
 	position: absolute;
 	top: 32px;
-	left: 450px;
+	left: 250px;
+}
+.bottom-txt .banner-swiper{
+	margin-top: 50px;
 }
 .middle-area .zhongwen,
 .middle-area .yingwen,
@@ -438,8 +427,11 @@ body {
 .bottom-area-content .yingwen{
 	color: #FFFFFF;
 }
-.bottom-area-content .bottom-Article>div{
-	margin: 25px 0px 5px;
+.bottom-area-content .bottom-Article .ddd{
+	width: 564px;
+	float: right;
+}
+.bottom-area-content .bottom-Article .ddd>div{
 	font-size: 16px;
 	font-weight: 700;
 }
@@ -448,5 +440,19 @@ body {
 	font-size: 12px;
 	text-align: justify;
     text-justify: inter-ideograph;/*IE*/
+}
+
+.bottom-Article .bottom-img{
+	width: 180px;
+	height: 180px;
+	border-radius: 15px;
+	background-color: #E94F25;
+	float: left;
+}
+.bottom-Article .bottom-img img{
+	width: 80px;
+	padding-top: 80px;
+	padding-left: 20px;
+	box-sizing: border-box;
 }
 /*底部部分结束*/
